@@ -1,0 +1,63 @@
+@import "../../styles/vars";
+
+.wrap {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  width: 56px;
+  justify-content: center;
+}
+
+.light {
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  border: 1px solid $dark;
+  transition: all 0.1s ease;
+  &:hover {
+    width: 28px;
+    height: 28px;
+  }
+
+  &.active {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.dark {
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  border: 1px solid $dark;
+  transition: all 0.1s ease;
+  background: $dark;
+  &:hover {
+    width: 28px;
+    height: 28px;
+  }
+  &.active {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@screen md {
+  .light {
+    width: 15px;
+    height: 15px;
+    &.active {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .dark {
+    width: 15px;
+    height: 15px;
+    &.active {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

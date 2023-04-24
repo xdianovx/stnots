@@ -1,0 +1,59 @@
+.item {
+  padding: 56px 0;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 1;
+}
+
+.value {
+  flex-grow: 1;
+  font-size: 120px;
+  line-height: 80px;
+}
+
+.num {
+  font-size: 14px;
+  line-height: 1;
+  margin-left: auto;
+}
+
+@screen xl {
+  .item {
+    padding: 32px 0;
+  }
+  .title {
+    font-size: 16px;
+  }
+
+  .value {
+    font-size: 96px;
+    line-height: 100%;
+  }
+}
+
+@screen md {
+  .item {
+    padding: 24px 0;
+  }
+
+  .value {
+    font-size: 64px;
+  }
+
+  .title {
+    font-size: 12px;
+  }
+
+  .num {
+    margin-left: auto;
+    font-size: 12px;
+  }
+}
+
+@screen xs {
+  .value {
+    font-size: 32px;
+  }
+}

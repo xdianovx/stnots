@@ -1,0 +1,30 @@
+.section {
+  margin-top: 243px;
+}
+
+.wrap {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+@screen xl {
+}
+
+@screen lg {
+  .section {
+    margin-top: 180px;
+  }
+}
+
+@screen md {
+  .section {
+    margin-top: 120px;
+  }
+}
+
+@screen sm {
+  .section {
+    margin-top: 64px;
+  }
+}

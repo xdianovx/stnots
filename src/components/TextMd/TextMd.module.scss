@@ -1,0 +1,26 @@
+.text {
+  font-size: 56px;
+  line-height: 65px;
+  letter-spacing: -0.02em;
+}
+
+@screen lg {
+  .text {
+    font-size: 48px;
+    line-height: 110%;
+  }
+}
+
+@screen lg {
+  .text {
+    font-size: 32px;
+    line-height: 120%;
+  }
+}
+
+@screen sm {
+  .text {
+    font-size: 30px;
+    font-weight: 400;
+  }
+}

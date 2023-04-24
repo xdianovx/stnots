@@ -1,0 +1,41 @@
+.header {
+  position: relative;
+  padding-top: 75px;
+  z-index: 2;
+  :global(.container) {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+}
+
+.theme__changer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.burger {
+  margin-left: auto;
+  position: relative;
+  z-index: 3;
+}
+
+@screen xl {
+  .header {
+    @apply pt-10;
+  }
+}
+
+@screen md {
+  .header {
+    @apply pt-4;
+  }
+}

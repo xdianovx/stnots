@@ -1,0 +1,21 @@
+// .input {
+//   height: 0;
+//   background: red;
+//   &:focus {
+//     height: auto;
+//   }
+
+//   &:not(:placeholder-shown) {
+//     height: auto;
+//   }
+// }
+
+.label {
+  top: 16px;
+  left: 16px;
+  &.active {
+    top: -4px;
+    left: 0;
+    transform: scale(0.8);
+  }
+}

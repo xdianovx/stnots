@@ -1,0 +1,29 @@
+.hero {
+  :global(.container) {
+    @apply h-full flex items-end;
+  }
+}
+
+.hero__title {
+  @apply block mt-[406px];
+}
+
+.hero__image {
+  @apply relative h-[811px] mt-20;
+
+  img {
+    @apply object-cover block;
+  }
+}
+
+@screen xl {
+  .hero__title {
+    @apply mt-[280px];
+  }
+}
+
+@screen md {
+  .hero__title {
+    @apply mt-[200px];
+  }
+}

@@ -1,0 +1,19 @@
+.logo {
+  width: 68px;
+}
+
+@screen lg {
+  .logo {
+    width: 64px;
+    height: auto;
+    svg {
+      @apply block;
+    }
+  }
+}
+
+@screen md {
+  .logo {
+    width: 32px;
+  }
+}

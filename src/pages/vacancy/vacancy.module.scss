@@ -1,0 +1,17 @@
+.hero {
+  :global(.container) {
+    @apply h-full flex items-end;
+  }
+}
+
+.hero__title {
+  @apply block mt-[406px];
+}
+
+.hero__image {
+  @apply relative h-[811px] mt-20;
+
+  img {
+    @apply object-cover block;
+  }
+}

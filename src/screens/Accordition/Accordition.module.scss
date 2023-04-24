@@ -1,0 +1,74 @@
+@import "../../styles/vars";
+
+.bottom {
+  margin-top: 115px;
+}
+
+.item {
+  padding: 46px 0;
+  cursor: pointer;
+
+  &:nth-child(1) {
+    z-index: 5;
+  }
+
+  &:nth-child(2) {
+    z-index: 4;
+  }
+  &:nth-child(3) {
+    z-index: 3;
+  }
+
+  &:nth-child(4) {
+    z-index: 2;
+  }
+
+  &:nth-child(5) {
+    z-index: 1;
+  }
+}
+
+.item__head {
+  align-items: center;
+}
+
+.item__title {
+  font-size: 141px;
+  line-height: 1;
+  &.active {
+    font-size: 16px;
+  }
+}
+
+.image__content {
+  display: block;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-left: auto;
+}
+
+@screen xl {
+  .item__title {
+    font-size: 96px;
+  }
+}
+
+@screen lg {
+  .item__title {
+    font-size: 64px;
+  }
+}
+
+@screen sm {
+  .item__title {
+    font-size: 32px;
+  }
+
+  .item {
+    padding: 24px 0;
+  }
+}
