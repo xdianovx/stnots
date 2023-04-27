@@ -1,0 +1,9 @@
+.input__label {
+  top: 16px;
+  left: 16px;
+  &.active {
+    top: -10px;
+    left: 0;
+    transform: scale(0.8);
+  }
+}

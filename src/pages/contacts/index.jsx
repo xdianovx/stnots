@@ -74,7 +74,7 @@ export default function Contacts() {
             )}
           >
             <div className="container">
-              <div className="grid grid-cols-3  min-h-[290px] pt-[90px] lg:grid-cols-2 lg:pt-0 md:min-h-0">
+              <div className="grid grid-cols-3 min-h-[290px] pt-[90px] lg:grid-cols-2 lg:pt-0 md:min-h-0">
                 <p className="text-[40px] md:text-[28px] sm:text-sm">
                   Отдел продаж
                 </p>
